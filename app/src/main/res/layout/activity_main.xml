@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/primary_quiz"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/solar"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:contentDescription="solar system"
+            android:src="@drawable/solar_system_img" />
+
+        <TextView
+            android:layout_below="@id/solar"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz Time "
+            android:textColor="@color/white"
+            android:textSize="@dimen/_40sdp"/>
+
+
+
+</RelativeLayout>
